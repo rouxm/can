@@ -3,5 +3,7 @@
   <a routerLink="/crisis-center" routerLinkActive="active">Crisis Center</a>
 
 </nav>
-
-<!--<router-outlet name="popup"></router-outlet> -->
+<div [@routeAnimation]="getAnimationData(routerOutlet)">
+  <router-outlet #routerOutlet="outlet"></router-outlet>
+</div>
+<router-outlet name="popup"></router-outlet>
