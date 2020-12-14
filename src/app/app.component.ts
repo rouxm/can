@@ -1,10 +1,16 @@
-import { Component, VERSION } from '@angular/core';
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+
 
 @Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  // selector: 'my-app',
+  selector: 'app-root',
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.css'],
+ // animations: [ slideInAnimation ]
 })
-export class AppComponent  {
-  name = 'Angulargg ' + VERSION.major;
-}
+export class AppComponent {
+ // getAnimationData(outlet: RouterOutlet) {
+ //   return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
+  }
+
