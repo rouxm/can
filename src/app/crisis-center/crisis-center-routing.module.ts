@@ -24,7 +24,7 @@ const crisisCenterRoutes: Routes = [
             canDeactivate: [CanDeactivateGuard],
             resolve: {
               crisis: CrisisDetailResolverService
-        /   }
+           }
           },
           {
             path: '',
