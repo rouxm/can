@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-//import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { Router } from '@angular/router';
 
@@ -19,7 +19,7 @@ import { CrisisCenterModule } from './crisis-center/crisis-center.module';
 @NgModule({
   imports: [
     BrowserModule,
-  //  BrowserAnimationsModule,
+    BrowserAnimationsModule,
     FormsModule,
  //   HeroesModule,
  //   AuthModule,
