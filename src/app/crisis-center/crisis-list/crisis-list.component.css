@@ -76,3 +76,28 @@ button.delete {
 .crises li.selected:hover {
   background-color: #BBD8DC;
 }
+
+
+
+/* selection lists */
+.selectlist {
+  margin: 0;
+  padding: 1.5em 0;
+  background-color: #DDD;
+}
+.selectlist a {
+  display: block;
+  color: black;
+  padding: 0.15em 1.5em;
+  text-decoration: none;
+  font-size: small;
+}
+.selectlist .selected {
+  background-color: cornflowerblue;
+}
+.selectlist .selected a {
+  color: white;
+}
+.selectlist i.fa {
+  width: 1.35em;
+}
