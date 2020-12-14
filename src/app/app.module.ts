@@ -27,7 +27,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
 //import { HeroesModule } from './heroes/heroes.module';
-import { CrisisCenterModule } from './cris-center/crisis-center.module';
+import { CrisisCenterModule } from './crisis-center/crisis-center.module';
 
 //import { AuthModule } from './auth/auth.module';
 
