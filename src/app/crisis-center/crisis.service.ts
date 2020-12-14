@@ -2,7 +2,7 @@ import { BehaviorSubject } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 import { Injectable } from '@angular/core';
-//import { MessageService } from '../message.service';
+import { MessageService } from '../message.service';
 import { Crisis } from './crisis';
 import { CRISES } from './mock-crises';
 
@@ -13,7 +13,7 @@ export class CrisisService {
   static nextCrisisId = 100;
   private crises$: BehaviorSubject<Crisis[]> = new BehaviorSubject<Crisis[]>(CRISES);
 
-  constructor(/*private messageService: MessageService*/) { }
+  constructor(private messageService: MessageService*) { }
 
   getCrises() { return this.crises$; }
 
