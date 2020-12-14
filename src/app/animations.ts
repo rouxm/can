@@ -13,7 +13,7 @@ export const slideInAnimation =
         style({
           position: 'absolute',
           top: 0,
-          left: 0,
+          left: 200,
           width: '100%'
         })
       ]),
